@@ -6,6 +6,8 @@ public class Aula1 {
         System.out.println("Digite um número");
         int numero = leia.nextInt();
 
-        System.out.println("O dobro de " + numero + " é " + (numero * 2));
+        int dobro = numero * 2;
+
+        System.out.println("O dobro de " + numero + " é " + dobro);
     }
 }
